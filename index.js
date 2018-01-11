@@ -19,7 +19,8 @@ function divide(a, b) {
 }
 
 function inc(n) {
-  return n++
+  n++
+  return n
   inc(805)
 }
 
@@ -30,7 +31,7 @@ function dec(n) {
 
 function makeInt(n) {
   return parseInt(n)
-  makeInt(647)
+  makeInt()
 }
 
 function makeInt(n) {
