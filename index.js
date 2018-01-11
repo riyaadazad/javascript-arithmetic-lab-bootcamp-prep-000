@@ -36,15 +36,18 @@ function makeInt(n) {
 }
 
 function makeInt(n) {
-  parseInt()
+  parseInt(n, 10)
+  makeInt(87)
 }
 
 function makeInt(n) {
-  parseInt()
+  parseInt(n, 10)
+  makeInt(0)
 }
 
 function preserveDecimal(n) {
-  parseFloat()
+  parseFloat(n, 10)
+  preserveDecimal(2.222, 10)
 }
 
 function preserveDecimal(n) {
