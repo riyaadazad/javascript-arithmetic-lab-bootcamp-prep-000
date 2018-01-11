@@ -30,7 +30,7 @@ function dec(n) {
 
 function makeInt(n) {
   return parseInt(n)
-  makeInt(647)
+  makeInt(647++)
 }
 
 function makeInt(n) {
