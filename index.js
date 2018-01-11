@@ -20,14 +20,17 @@ function divide(a, b) {
 
 function inc(n) {
   return n++
+  inc(805)
 }
 
 function dec(n) {
   return n--
+  dec(753)
 }
 
 function makeInt(n) {
-  parseInt()
+  return parseInt(n)
+  makeInt(647)
 }
 
 function makeInt(n) {
